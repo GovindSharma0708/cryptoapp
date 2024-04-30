@@ -13,7 +13,7 @@ import { configureStore } from '@reduxjs/toolkit';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Provider store={store}>
+      <Provider>
         <App />
       </Provider>
     </Router>
